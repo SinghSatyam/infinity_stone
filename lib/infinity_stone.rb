@@ -7,10 +7,12 @@ module InfinityStone
 
   base_uri "gateway.marvel.com/v1/public"
 
-    # fetches lists of characters
     def self.characters(options={})
-      # v1/public/characters
       get('/characters',query: options)
+    end
+
+    def self.character(id, options = {})
+      get("/characters/#{id}",query: options)
     end
 
 end
