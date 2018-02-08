@@ -1,20 +1,24 @@
-PATH
-  remote: .
-  specs:
-    infinity_stone (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    rake (10.5.0)
+    coderay (1.1.1)
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    method_source (0.8.2)
+    multi_xml (0.6.0)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.15)
-  infinity_stone!
-  rake (~> 10.0)
+  bundler (~> 1.0)
+  httparty (>= 0.15.6)
+  pry
 
 BUNDLED WITH
    1.15.0

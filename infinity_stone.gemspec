@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Satyam Singh"]
   spec.email         = ["satyam.mgs@gmail.com"]
 
-  spec.summary       = %q{A gem from fetching data from marvel universe}
+  spec.summary       = %q{A gem for fetching data from marvel universe}
   # spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/SinghSatyam/infinity_stone"
   spec.license       = "MIT"
@@ -32,4 +32,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_dependency "httparty", "0.15.1"
 end
